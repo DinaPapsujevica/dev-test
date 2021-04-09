@@ -1,0 +1,27 @@
+body {
+    color: #394751;
+}
+
+.nav-link {
+    color: #394751;
+}
+
+.service-box-1 {
+    background-color:#828b93;
+}
+
+.service-box-2 {
+    background-color: #b4f4fa;
+}
+.service-box-3 {
+    background-color: #8daae5;
+}
+.service-box-4 {
+    background-color: #b2afe7;
+}
+
+
+
+/* .section-hero {
+    linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7))
+} */

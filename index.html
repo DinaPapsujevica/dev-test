@@ -5,76 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/style.css" type="text/css" />
     <title>DevSkill</title>
 </head>
-<body class="bg-light">
+<body>
   <div class="container">
-    <nav class="navbar navbar-light bg-light border-bottom">
-      <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-light border-bottom">
+      <a class="navbar-brand">
         <img src="/resources/img/logo1.jpg" width="100" height="100" alt="">
       </a>
       <ul class="nav justify-content-end text-uppercase">
         <li class="nav-item">
           <a class="nav-link active" href="#">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Service 1</a>
+            <a class="dropdown-item" href="#">Service 2</a>
+            <a class="dropdown-item" href="#">Service 3</a>
+            <a class="dropdown-item" href="#">Service 4</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact Us</a>
         </li>
       </ul>
     </nav>
-    <div class="row mb-5">
-      <img src="/resources/img/hero.jpg" class="img-fluid position-relative" alt="...">
-      <div class="jumbotron position-absolute bg-transparent text-right text-uppercase">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead text-black">This is a simple hero unit, a simple jumbotron-style component <br> for calling extra attention to featured content or information.</p>
-        <a class="btn btn-warning btn-lg" href="#" role="button">Learn more</a>
+  </div>
+  <div class="container-fluid">
+    <div class="row mb-5 section-hero text-right">
+      <img src="/resources/img/hero.jpg" class="img position-relative blue-gradient" alt="...">
+      <div class="jumbotron position-absolute bg-transparent text-uppercase">
+        <h1 class="display-4 text-white">Reliable partner <br> for your cloud journey</h1>
+        <p class="lead text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br> Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <a class="btn btn rounded-pill btn-outline-secondary btn-lg text-white text-uppercase" href="#" role="button">Contact us</a>
       </div>
     </div>
-    <div class="row mb-5">
-      <div col-md-6 col-lg-3>
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+  </div>
+  <div class="jumbotron text-center bg-transparent border border-light shadow-sm p-3 mb-5 bg-white rounded">
+      <div class="container">
+        <h3 class="display-4 text-uppercase mb-4">About</h3>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+          consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+          nec, vulputate</p>
       </div>
-      <div col-md-6 col-lg-3>
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div col-md-6 col-lg-3>
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div col-md-6 col-lg-3>
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+  </div>
+  <div class="container">
+    <div class="row mb-5 d-flex justify-content-center">
+      <div class="col">
+        <h3 class="text-center display-4 text-uppercase mb-4">Our services</h3>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card service-box-1 shadow rounded" style="width: 18rem;">
+          <img src="resources/img/icon1.png" class="card-img-top" alt="...">
+          <div class="card-body text-white">
+            <h5 class="card-title">Service 1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Cum sociis natoque penatibus
+              et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <a href="#" class="btn btn-outline-light btn-sm">Read more</a>
+          </div>
+        </div>
+      </div>  
+      <div class="col-md-6  offset-md-0 mb-4">
+        <div class="card service-box-2 shadow rounded" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Service 2</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Cum sociis natoque penatibus
+              et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <a href="#" class="btn btn-outline-light btn-sm">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card service-box-3 shadow rounded" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Service 3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Cum sociis natoque penatibus
+              et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <a href="#" class="btn btn-outline-light btn-sm">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 offset-md-0 mb-4">
+        <div class="card service-box-4 shadow rounded" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Service 4</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Cum sociis natoque penatibus
+              et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <a href="#" class="btn btn-outline-light btn-sm">Read more</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
     <div class="row border-top mb-5">
       <div class="col d-flex flex-row justify-content-around">
         <h4>Company name</h4>
@@ -85,5 +124,7 @@
     </div>
 
   </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>
