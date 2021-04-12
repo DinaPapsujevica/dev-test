@@ -1,132 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="resources/style.css" type="text/css" />
-    <title>DevSkill</title>
-</head>
-<body>
-  <div class="container">
-    <nav class="navbar navbar-light border-bottom">
-      <a class="navbar-brand">
-        <img src="/resources/img/logo1.jpg" width="100" height="100" alt="">
-      </a>
-      <ul class="nav justify-content-end text-uppercase">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Services
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Service 1</a>
-            <a class="dropdown-item" href="#">Service 2</a>
-            <a class="dropdown-item" href="#">Service 3</a>
-            <a class="dropdown-item" href="#">Service 4</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <div class="container-fluid">
-    <div class="row mb-5 section-hero text-right">
-      <img src="/resources/img/hero.jpg" class="img position-relative blue-gradient" alt="...">
-      <div class="jumbotron position-absolute bg-transparent text-uppercase">
-        <h1 class="display-4 text-white">Reliable partner <br> for your cloud journey</h1>
-        <p class="lead text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br> Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        <a class="btn btn rounded-pill btn-outline-secondary btn-lg text-white text-uppercase" href="#" role="button">Contact us</a>
-      </div>
-    </div>
-  </div>
-  <div class="jumbotron text-center bg-transparent border border-light shadow-sm p-3 mb-5 bg-white rounded">
-      <div class="container">
-        <h3 class="display-4 text-uppercase mb-4">About</h3>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-          nec, vulputate</p>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,160L1440,96L1440,0L0,0Z"></path></svg>
-  </div>
-  
-  <div class="container">
-    <div class="row mb-5 d-flex justify-content-center">
-      <div class="col">
-        <h3 class="text-center display-4 text-uppercase mb-4">Our services</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 mb-4">
-        <div class="card service-box-1 shadow rounded" style="width: 18rem;">
-          <img src="resources/img/icon1.png" class="card-img-top" alt="...">
-          <div class="card-body text-white">
-            <h5 class="card-title">Service 1</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <a href="#" class="btn btn-outline-light btn-sm">Read more</a>
-          </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css" />
+    <title>Dev skill</title>
+  </head>
+  <body>
+    <!--Navbar ------------>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-light">
+            <a class="navbar-brand">
+              <img
+                src="/resources/css/img/logo2.jpg"
+                width="auto"
+                height="80"
+                alt=""
+              />
+            </a>
+            <ul class="nav justify-content-end text-uppercase">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Service 1</a>
+                  <a class="dropdown-item" href="#">Service 2</a>
+                  <a class="dropdown-item" href="#">Service 3</a>
+                  <a class="dropdown-item" href="#">Service 4</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-      </div>  
-      <div class="col-md-6  offset-md-0 mb-4">
-        <div class="card service-box-2 shadow rounded" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Service 2</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <a href="#" class="btn btn-outline-light btn-sm">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 mb-4">
-        <div class="card service-box-3 shadow rounded" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Service 3</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <a href="#" class="btn btn-outline-light btn-sm">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 offset-md-0 mb-4">
-        <div class="card service-box-4 shadow rounded" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Service 4</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Cum sociis natoque penatibus
-              et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <a href="#" class="btn btn-outline-light btn-sm">Read more</a>
-          </div>
-        </div>
-      </div>
-  </div>
-
-    <div class="row border-top mb-5">
-      <div class="col d-flex flex-row justify-content-around">
-        <h4>Company name</h4>
-        <h4>Address</h4>
-        <h4>Email</h4>
-        <h4>Phone nr</h4>
       </div>
     </div>
 
-  </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-</body>
+    <!--Hero section ------------>
+    <div class="hero-image">
+      <div class="jumbotron bg-transparent text-uppercase text-center">
+        <h1 class="display-5 text-white mb-5 hero-heading mt-5">
+          Reliable partner <br>
+          for your cloud journey
+        </h1>
+        <p class="lead text-white mb-5">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        </p>
+        <a
+          class="btn btn rounded-pill border-white btn-info btn-lg text-white text-uppercase mt-5"
+          href="#"
+          role="button"
+          >Contact Us</a
+        >
+      </div>
+    </div>
+    
+
+    <!--About section ------------>
+    <div class="container">
+      <div class="row pt-4 pb-4 mb-6 mt-3">
+        <div class="col">
+          <div
+            class="jumbotron text-center bg-transparent border border-light shadow-sm p-3 mb-5 bg-white rounded"
+          >
+            <div class="container">
+              <h2>Who we are</h2>
+              <p class="lead mt-4">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+                fringilla vel, aliquet nec, vulputate
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Service section ------------>
+    <div class="container-fluid section-service">
+      <div class="row mb-5 pt-4">
+        <div class="col">
+          <h2 class="text-center mb-4">
+            What we offer
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 service-box-1 text-center shadow">
+          <img class="service-icon mt-3 mb-3" src="resources/css/img/icon1.svg" alt="Service icon">
+          <h3 class="text-uppercase mb-4">AWS Cloud Migration</h3>
+          <p class="text-justify mb-5">Adopting Amazon Web Services gives multiple benefits, like
+            increased business agility, flexibility, and reduced costs. <br> We help organizations with cloud migration the way they work, apply the cloud adoption framework that provides guidelines to identify and address gaps in skills and processes.  
+            </p>
+            <a href="#" class="btn btn-outline-dark btn-sm mb-4">Read more</a>
+        </div>
+        <div class="col-sm-6 col-lg-3 service-box-2 text-center shadow">
+          <img class="service-icon-2 mt-3 mb-3" src="resources/css/img/icon2-2.svg" alt="Service icon">
+          <h3 class="text-uppercase mb-4">AWS Well-Architected</h3>
+          <p class="text-justify mb-5">AWS Well-Architected helps engineers create secure, robust, elastic, and powerful infrastructure for any applications and workloads. <br> 
+            We analyze and assess a client's solution to design and implement the best tradeoff and efficiency between security, reliability, performance, and cost.
+            </p>
+            <a href="#" class="btn btn-outline-dark btn-sm mb-4">Read more</a>
+        </div>
+        <div class="col-sm-6 col-lg-3 service-box-3 text-center shadow">
+          <img class="service-icon-2 mt-3 mb-3" src="" alt="Service icon">
+          <h3 class="text-uppercase mb-4">Microservice architecture on AWS</h3>
+          <p class="text-justify mb-4">Microservices architecture allows applications to operate as a system of independent services. These services use a well-defined API interface for communication. <br> 
+            We design, architect, implement, and automate microservices, including but not limited to EKS. Automate build, test, and deployment according to DevOps best practices.
+          </p>
+            <a href="#" class="btn btn-outline-dark btn-sm mb-4">Read more</a>
+        </div>
+        <div class="col-sm-6 col-lg-3 service-box-4 text-center shadow">
+          <img src="" alt="Service icon">
+          <h3>DevOps automation</h3>
+          <p class="text-justify">DevOps is a set of practices that accelerate software development lifecycle, in other words, reduce the time between committed changes and production deployment while ensuring high quality, using automation tools for:
+
+            Infrastructure
+            Configuration
+            Deployment
+            Performance Management
+            Monitoring
+            Log Management
+            </p>
+            <a href="#" class="btn btn-outline-dark btn-sm mb-4">Read more</a>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="section-service">
+      
+      
+      <div class="row mt-5 g-0">
+        <div class="col-6 col-md-3">
+          <div class="card service-box-1 shadow rounded text-justify">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Service 1</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Cum sociis natoque penatibus et
+                magnis dis parturient montes, nascetur ridiculus mus.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card service-box-2 shadow rounded text-justify">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Service 2</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Cum sociis natoque penatibus et
+                magnis dis parturient montes, nascetur ridiculus mus.
+              </p>
+              <a href="#" class="btn btn-outline-dark btn-sm">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card service-box-3 shadow rounded text-center">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Service 3</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Cum sociis natoque penatibus et
+                magnis dis parturient montes, nascetur ridiculus mus.
+              </p>
+              <a href="#" class="btn btn-outline-dark btn-sm">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card service-box-4 shadow rounded text-center">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Service 4</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Cum sociis natoque penatibus et
+                magnis dis parturient montes, nascetur ridiculus mus.
+              </p>
+              <a href="#" class="btn btn-outline-dark btn-sm">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,224L1440,64L1440,0L0,0Z"></path></svg>
+
+    <!--Contact section ------------>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-6">
+          <h5 class="text-center text-uppercase mb-4">Want to work with us?</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Cum sociis natoque penatibus et magnis
+            dis parturient montes, nascetur ridiculus mus. <br />
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Cum sociis natoque penatibus et magnis
+            dis parturient montes, nascetur ridiculus mus.
+          </p>
+        </div>
+        <div class="col-6">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Full Name</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Company Name</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Service</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Service 1</option>
+                <option>Service 2</option>
+                <option>Service 3</option>
+                <option>Service 4</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">
+              Send Request
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col text-center">
+          <h6>Copyright @ Devskill</h6>
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div class="col list-inline">
+          <ion-icon class="list-inline-item" name="compass-outline"></ion-icon>
+          <h5 class="text-uppercase list-inline-item">Address</h5>
+          <p>
+            Postparken 24 <br />
+            2770Kastrup <br />
+            Denmark
+          </p>
+          <ion-icon name="call-outline"></ion-icon>
+          <h5 class="text-uppercase">Address</h5>
+          <p>
+            Postparken 24 <br />
+            2770Kastrup <br />
+            Denmark
+          </p>
+        </div>
+      </div>
+    </div> -->
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
