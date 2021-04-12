@@ -17,17 +17,17 @@ body {
 }
 
 .service-box-1 {
-  background-color: #ccd1d1;
+  background-color: #979a9a;
 }
 
 .service-box-2 {
-  background-color: #b2afe7;
+  background-color: #a569bd;
 }
 .service-box-3 {
-  background-color: #b4f4fa;
+  background-color: #40e0d0;
 }
 .service-box-4 {
-  background-color: #8daae5;
+  background-color: #6495ed;
 }
 * {
   margin: 0;
@@ -44,20 +44,31 @@ body {
   background-attachment: fixed;
 }
 
-.section-service {
+/* .section-service {
   background-color: #f4f4f4;
-}
+} */
 
 .service-icon {
-  border: 1px solid black;
-  border-radius: 50%;
+  background-color: white;
   height: 80px;
   width: 80px;
+  border-radius: 50%;
   text-align: center;
   padding: 5px;
 }
 
 .service-icon-2 {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+}
+
+.service-icon-3 {
+  background-color: white;
   height: 80px;
   width: 80px;
   border: 1px solid black;
