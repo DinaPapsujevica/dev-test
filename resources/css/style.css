@@ -30,8 +30,8 @@ body {
   background-attachment: fixed;
 }
 
-.btn-main {
-  background-color: #40e0d0;
+.btn-main:hover {
+  background-color: #6495ed;
 }
 .service-box-1 {
   background-color: #979a9a;
