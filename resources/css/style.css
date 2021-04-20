@@ -13,8 +13,17 @@ body {
   color: #394751;
 }
 
-.nav-link {
+.nav-link,
+.nav-link:hover {
   color: #394751;
+}
+
+/* .dropdown-menu {
+  background-color: #7aa2ee;
+} */
+
+.dropdown-item {
+  color: #fff;
 }
 
 .hero-heading {
@@ -22,17 +31,29 @@ body {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(img/hero6.jpg);
   background-size: cover;
   background-position: center;
-  height: 70vh;
   background-attachment: fixed;
 }
-
-.btn-main:hover {
-  background-color: #6495ed;
+.hero-image-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/hero7.jpg);
+  height: 50vh;
 }
+.hero-image-service {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/cloud2.jpg);
+  height: 30vh;
+}
+.hero-image-service-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/hero3.jpg);
+  height: 30vh;
+}
+
+/* .btn-main {
+  background-color: #6495ed;
+} */
 .service-box-1 {
   background-color: #979a9a;
 }
@@ -54,4 +75,34 @@ body {
   border-radius: 50%;
   text-align: center;
   padding: 5px;
+}
+
+.email {
+  letter-spacing: 2px;
+}
+.copyright {
+  font-size: 70%;
+}
+
+.service-text {
+  background-color: #979a9a;
+}
+.icon-service {
+  font-size: 170%;
+}
+
+.service-text-2 {
+  background-color: #a569bd;
+}
+
+.service-list {
+  list-style-type: none;
+}
+
+.service-image img {
+  width: 50vh;
+}
+.service-image {
+  padding-top: 120px;
+  margin-top: 100px;
 }

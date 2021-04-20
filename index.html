@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="robots" content="noindex" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="resources/css/style.css" type="text/css" />
-    <title>Dev skill</title>
+    <title>Dev Skill</title>
   </head>
   <body>
     <!--Navbar ------------>
@@ -29,7 +30,7 @@
             </a>
             <ul class="nav justify-content-end text-uppercase">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link active" href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -43,11 +44,11 @@
                 >
                   Services
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Service 1</a>
-                  <a class="dropdown-item" href="#">Service 2</a>
-                  <a class="dropdown-item" href="#">Service 3</a>
-                  <a class="dropdown-item" href="#">Service 4</a>
+                <div class="dropdown-menu bg-info" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="service.html">AWS Cloud Migration</a>
+                  <a class="dropdown-item" href="service-2.html">AWS Well-Architected</a>
+                  <a class="dropdown-item" href="#">Microservice architecture on AWS</a>
+                  <a class="dropdown-item" href="#">DevOps automation</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -60,20 +61,20 @@
     </div>
 
     <!--Hero section ------------>
-    <div class="hero-image">
+    <div class="hero-image hero-image-main">
       <div class="jumbotron bg-transparent text-uppercase text-center">
         <h1 class="display-5 text-white mb-5 hero-heading mt-5">
           Reliable partner <br>
           for your cloud journey
         </h1>
-        <p class="lead text-white mb-5">
+        <!-- <p class="lead text-white mb-5">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-        </p>
+        </p> -->
         <a
-          class="btn btn-outline-info btn-main rounded-pill border-white btn-lg text-white text-uppercase mt-5"
+          class="btn btn-info btn-main rounded-pill border-white btn-lg text-white text-uppercase mt-5"
           href="#"
           role="button"
-          >Contact Us</a
+          >Read more</a
         >
       </div>
     </div>
@@ -89,12 +90,7 @@
             <div class="container">
               <h5 class="text-center text-uppercase mb-4">Who we are</h5>
               <p class="lead mt-4">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate
+                Dev Skill is IT consulting start-up focused on AWS infrastructure engineering and DevOps automation. 
               </p>
             </div>
           </div>
@@ -112,14 +108,14 @@
       <div class="row text-white text-center">
         <div class="col-sm-6 col-lg-3 service-box-1  text-center shadow">
           
-          <img class="service-icon mt-3 mb-3" src="resources/css/img/icon1-4.png" alt="Service icon">
+          <img class="service-icon mt-3 mb-3" src="resources/css/img/icon1.png" alt="Service icon">
           <h3 class="text-uppercase mb-5">AWS Cloud <br> Migration</h3>
           <p class=" mt-5 mb-5"> Help organizations with cloud migration the way they work, apply the cloud adoption framework that provides guidelines to identify and address gaps in skills and processes.  
             </p>
             <a href="#" class="btn btn-sm text-white mb-4">Read more >></a>
         </div>
         <div class="col-sm-6 col-lg-3 service-box-2 text-center shadow">
-          <img class="service-icon mt-3 mb-3" src="resources/css/img/icon2-4.png" alt="Service icon">
+          <img class="service-icon mt-3 mb-3" src="resources/css/img/icon2.png" alt="Service icon">
           <h3 class="text-uppercase mb-4">AWS <br> Well-Architected</h3>
           <p class=" mt-5 mb-5"> 
             Analyze and assess a client's solution to design and implement the best tradeoff and efficiency between security, reliability, performance, and cost.
@@ -127,7 +123,7 @@
           <a href="#" class="btn btn-sm text-white mb-4">Read more >></a>
         </div>
         <div class="col-sm-6 col-lg-3 service-box-3 text-center shadow">
-          <img class="service-icon mt-3 mb-3" src="resources/css/img/icon3-2.png" alt="Service icon">
+          <img class="service-icon mt-3 mb-3" src="resources/css/img/icon3.png" alt="Service icon">
           <h3 class="text-uppercase mb-5">Microservice architecture on AWS</h3>
           <p class=" mb-5"> 
             Design, architect, implement, and automate microservices, including but not limited to EKS. Automate build, test, and deployment according to DevOps best practices.
@@ -145,99 +141,80 @@
       </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,320L48,309.3C96,299,192,277,288,266.7C384,256,480,256,576,218.7C672,181,768,107,864,69.3C960,32,1056,32,1152,58.7C1248,85,1344,139,1392,165.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,224L1440,64L1440,0L0,0Z"></path></svg> -->
 
     <!--Contact section ------------>
-    <div class="container ">
+    <div class="container">
       <div class="row mb-5">
         <div class="col-6">
           <h5 class="text-center text-uppercase mb-4">Want to work with us?</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Cum sociis natoque penatibus et magnis
-            dis parturient montes, nascetur ridiculus mus. <br />
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Cum sociis natoque penatibus et magnis
-            dis parturient montes, nascetur ridiculus mus.
+            Please fill the form and
+            we will contact you for a zoom call to review your case and develop a plan to collaborate.
           </p>
         </div>
         <div class="col-6">
           <form>
             <div class="form-group">
-              <label for="exampleInputEmail1">Full Name</label>
               <input
                 type="email"
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
+                placeholder="Full Name"
               />
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Company Name</label>
               <input
                 type="email"
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
+                placeholder="Company Name"
               />
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
               <input
                 type="email"
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
+                placeholder="Email"
               />
             </div>
             <div class="form-group">
-              <label for="exampleFormControlSelect1">Service</label>
               <select class="form-control" id="exampleFormControlSelect1">
-                <option>Service 1</option>
-                <option>Service 2</option>
-                <option>Service 3</option>
-                <option>Service 4</option>
+                <option>AWS Cloud Migration</option>
+                <option>AWS Well-Architected</option>
+                <option>Microservice architecture on AWS</option>
+                <option>DevOps automation</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
               <textarea
                 class="form-control"
                 id="exampleFormControlTextarea1"
                 rows="3"
+                placeholder="Message"
               ></textarea>
             </div>
-            <button type="submit" class="btn btn-secondary">
-              Send Request
+            <button type="submit" class="btn btn-info btn-md rounded-pill border-white btn-lg text-white">
+              Contact Us
             </button>
           </form>
         </div>
       </div>
-      <div class="row pt-5">
-        <div class="col text-center">
-          <h6>Copyright @ Devskill</h6>
-        </div>
-      </div>
-      <!-- <div class="row">
-        <div class="col list-inline">
-          <ion-icon class="list-inline-item" name="compass-outline"></ion-icon>
-          <h5 class="text-uppercase list-inline-item">Address</h5>
-          <p>
-            Postparken 24 <br />
-            2770Kastrup <br />
-            Denmark
-          </p>
-          <ion-icon name="call-outline"></ion-icon>
-          <h5 class="text-uppercase">Address</h5>
-          <p>
-            Postparken 24 <br />
-            2770Kastrup <br />
-            Denmark
-          </p>
-        </div>
-      </div>
-    </div> -->
 
+      <div class="row pt-5">
+        <div class="col text-center email">
+          <h6>sales@dev-skill.com</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center copyright">
+          <p>Copyright &commat; Devskill</p>
+        </div>
+      </div>
+      
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
