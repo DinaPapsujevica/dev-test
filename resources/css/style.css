@@ -13,19 +13,16 @@ body {
   color: #394751;
 }
 
+/* ------------------------------------------ Navbar */                          
 .nav-link,
 .nav-link:hover {
   color: #394751;
 }
 
-/* .dropdown-menu {
-  background-color: #7aa2ee;
-} */
-
 .dropdown-item {
   color: #fff;
 }
-
+/* ------------------------------------------ Hero section */ 
 .hero-heading {
   word-spacing: 4px;
 }
@@ -50,10 +47,8 @@ body {
     url(img/hero3.jpg);
   height: 30vh;
 }
+/* ------------------------------------------ Service section */ 
 
-/* .btn-main {
-  background-color: #6495ed;
-} */
 .service-box-1 {
   background-color: #979a9a;
 }
@@ -67,30 +62,9 @@ body {
 .service-box-4 {
   background-color: #6495ed;
 }
-
-.service-icon {
-  background-color: white;
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
-  text-align: center;
-  padding: 5px;
-}
-
-.email {
-  letter-spacing: 2px;
-}
-.copyright {
-  font-size: 70%;
-}
-
 .service-text {
   background-color: #979a9a;
 }
-.icon-service {
-  font-size: 170%;
-}
-
 .service-text-2 {
   background-color: #a569bd;
 }
@@ -99,10 +73,45 @@ body {
   list-style-type: none;
 }
 
-.service-image img {
+.service-image {
   width: 50vh;
 }
-.service-image {
-  padding-top: 120px;
-  margin-top: 100px;
+
+/* ------------------------------------------ Icons */ 
+.service-icon {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
 }
+.icon-service {
+  display: inline-block;
+  font-size: 170%;
+  vertical-align: middle;
+}
+.icon-s {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 120%
+}
+
+.icon-xs {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 90%;
+}
+/* ------------------------------------------ Footer */ 
+.email {
+  letter-spacing: 2px;
+}
+.copyright {
+  font-size: 70%;
+}
+
+
+
+
+
+
